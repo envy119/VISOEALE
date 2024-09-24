@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VISOEALE - Komunitas Fotografi</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>VISOEALE</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang Kami</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#events">Acara</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Selamat Datang di VISOEALE</h2>
+        <p>Komunitas fotografi yang berbagi kecintaan terhadap seni visual.</p>
+    </section>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>VISOEALE adalah komunitas fotografi yang didedikasikan untuk mengembangkan keterampilan dan berbagi passion di bidang fotografi.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Galeri</h2>
+        <p>Berikut adalah beberapa karya terbaik anggota kami:</p>
+        <div class="gallery-grid">
+            <img src="example1.jpg" alt="Contoh Foto 1">
+            <img src="example2.jpg" alt="Contoh Foto 2">
+            <img src="example3.jpg" alt="Contoh Foto 3">
+        </div>
+    </section>
+
+    <section id="events">
+        <h2>Acara</h2>
+        <p>Ikuti acara dan kegiatan terbaru kami:</p>
+        <ul>
+            <li>Workshop Fotografi - 15 Oktober 2024</li>
+            <li>Kontes Foto Bulanan - 30 Oktober 2024</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontak Kami</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Kirim</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 VISOEALE - Semua hak cipta dilindungi.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
